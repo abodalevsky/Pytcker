@@ -10,8 +10,7 @@ COUNTER = 0
 
 @app.route('/')
 def hello():
-    provider = str(os.environ.get('PROVIDER', 'world'))
-    return 'Hello '+provider+'!'
+    return 'Hello world! (v: 0.1)'
 
 
 @app.route('/inc')
