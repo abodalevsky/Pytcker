@@ -10,7 +10,7 @@ COUNTER = 0
 
 @app.route('/')
 def hello():
-    return 'Hello world! (v: 0.1)'
+    return 'Hello world! (v: 0.2)'
 
 
 @app.route('/inc')
